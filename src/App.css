@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(155, 82, 223);
+}
+
+.input_container > input{
+    height: 30px;
+    width: 300px;
+    font-size: 1.5rem;
+    border: 2px solid rgb(235, 142, 21);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_container > .btn{
+    height: 30px;
+    width: 30px;
+    font-size: 1.2rem;
+    background-color: #E63946 ;
+    border-radius: 15px;
+    box-shadow: inset;
+}
+
+h1{
+    text-align: center;
+}
+
+.AddTask_container{
+    background-color: azure;
+    width: 500px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 1.05rem;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 900;
+}
+
+.actions > button{
+    background-color: #E63946;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 7px;
+    border: 1px solid black;
+}
