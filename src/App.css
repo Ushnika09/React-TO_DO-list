@@ -2,7 +2,19 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(155, 82, 223);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./assets/bg.png');
+    background-size: cover ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* background-color: rgb(70, 156, 155); */
 }
 
 .input_container > input{
@@ -12,6 +24,7 @@ body{
     border: 2px solid rgb(235, 142, 21);
     margin-bottom: 10px;
     border-radius: 5px;
+    background-color: rgba(207, 255, 255, 0.8);
 }
 
 div{
@@ -28,12 +41,18 @@ div{
     box-shadow: inset;
 }
 
+.input_container > .btn:hover{
+    scale: 1.2;
+    animation-duration: 8ms;
+}
+
+
 h1{
     text-align: center;
 }
 
 .AddTask_container{
-    background-color: azure;
+    background-color: rgba(120, 87, 154, 0.8);
     width: 500px;
     border-radius: 5px;
     display: flex;
@@ -41,8 +60,9 @@ h1{
     justify-content: space-between;
     padding: 5px 10px;
     font-size: 1.05rem;
-    margin: 15px;
+    margin: 8px auto ;
     font-weight: bold;
+    box-shadow: inset;
 }
 
 .actions{
