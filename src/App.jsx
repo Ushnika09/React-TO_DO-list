@@ -27,7 +27,7 @@ function App() {
   return(
     <>
       <main>
-        <h1>📝 TaskTamer – A Clean & Functional React To-Do List</h1>
+        <h1>📝 TaskTamer </h1>
         <Taskbar input={handleChange} add={handleAdd} value={inp}/>
         <AddTask todos={todo} del={handleDel}/>
       </main>
